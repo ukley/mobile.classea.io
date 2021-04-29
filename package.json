@@ -1,0 +1,5 @@
+{
+"build" : "quasar build",
+"start": "node server.js",
+"heroku-postbuild": "yarn && yarn build"
+}
